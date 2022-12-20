@@ -1,16 +1,21 @@
 // demo: https://godbolt.org/z/KW1TrK5ee
 
 /*
+
+    root = createRoot(1);
+    for (int i = 2; i < 10; i++) insert(root, i);
+    print(root);
+
+
 R 1
-    L 10
-        L 8
-            L 4
-            R 3
-        R 7
-            L 2
-    R 9
-        L 6
+    L 2
+        L 4
+            L 8
+            R 9
         R 5
+    R 3
+        L 6
+        R 7
 */
 
 #include <stdio.h>
