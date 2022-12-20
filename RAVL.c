@@ -1,3 +1,18 @@
+// demo: https://godbolt.org/z/KW1TrK5ee
+
+/*
+R 1
+    L 10
+        L 8
+            L 4
+            R 3
+        R 7
+            L 2
+    R 9
+        L 6
+        R 5
+*/
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
